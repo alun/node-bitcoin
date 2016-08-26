@@ -18,6 +18,10 @@
 
 node-bitcoin is a simple wrapper for the Bitcoin client's JSON-RPC API.
 
+CAUTION: this fork modifies original bitcoin API to convert amount to strings as by default they
+are number and real value could be lost due to precision issues. Having them as strings it becames
+possible to convert them into some variant of BigDecimal to do arithmetical operations without precisionlost
+
 If starting a new project, I highly encourage you to take a look at the more modern [bitcoin-core](https://github.com/seegno/bitcoin-core), which features:
 * ES6 support
 * optional promise support
