@@ -12,7 +12,7 @@
     "Sean Lavine <sean@eternalrise.com>"
   ],
   "dependencies": {
-    "promise-future": "git@github.com:alun/promise-future.git"
+    "promise-future": "https://github.com/alun/promise-future"
   },
   "devDependencies": {
     "clone": "^1.0.2",
